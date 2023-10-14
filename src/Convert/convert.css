@@ -1,0 +1,61 @@
+body{
+   height: 100vh;
+   background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); 
+}
+
+
+.list_set{
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); 
+ 
+}
+
+.upper_header{
+    padding-left: 60px;
+    padding-top: 10px;
+    font-size: 18px;
+    color: white;
+
+
+}
+
+.home_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.header_y{
+    font-size: 42px;
+}
+
+.header_y,.span_youtube{
+    color: white;
+}
+
+.content_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 100vh;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.download_link{
+   color: #030339;
+   text-decoration: none; 
+   cursor: pointer;
+   font-weight: bold;
+}
+.span_youtube{
+    font-size: 18px;
+}
