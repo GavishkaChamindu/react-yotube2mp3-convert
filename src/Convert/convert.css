@@ -28,7 +28,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 10px;
     justify-content: center;
 
 
@@ -81,10 +81,24 @@ body{
     font-weight: bold;
 }
 
-.set_btn_width{
-
+.download_button{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.song_title{
+    width: 50%;
+    display: flex;
+   
+    text-align: center;
 }
 
+.thumbnail{
+    width: 50%;
+
+}
 @media (max-width: 768px) {
     .header_h1 {
       font-size: 24px;

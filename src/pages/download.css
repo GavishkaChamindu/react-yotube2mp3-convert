@@ -1,0 +1,39 @@
+.download_page{
+    display: flex;
+    flex-direction: column;
+border: 1px solid white;
+    border-radius: 10px;
+    width: 90%
+    
+  
+    
+
+}
+.download_title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.download_page_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.download_title{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.file_size{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
