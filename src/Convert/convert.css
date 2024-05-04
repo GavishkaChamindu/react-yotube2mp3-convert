@@ -1,5 +1,5 @@
 body{
-   height: 100vh;
+   height: 100%;
    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); 
 }
 
@@ -98,6 +98,15 @@ text-align: center;
 .thumbnail{
     width: 50%;
 
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.download-mp3,.download-video,.download-thumbnail{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 @media (max-width: 768px) {
     .header_h1 {
